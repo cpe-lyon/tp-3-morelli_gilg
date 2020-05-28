@@ -49,12 +49,11 @@ fi
 
 Pour lister les programmes livrés avec ```coreutils```, on affiche les informations sur le paquet et on affiche les 9 dernières lignes, qui contiennent les programmes livrés par le paquet. Pour cela, on exécute la commande ```apt show coreutils | tail -9```.
 
+La commande ```[``` est une commande de test booléen. Utilisée ainsi ```[ EXPRESSION ]```, elle vérifie la validité de l'expression en retournant le statut de sortie. La valeur 0 correspond à un vrai et 1 à un faux.
+
 ## Exercice 6
 
 Nous avons donc installé la version Oracle de Java grâce aux commandes stipulées par l'énoncé. Le fichier ```linuxuprising-ubuntu-java-bionic.list``` a été créé  dans le répertoire ```etc/apt/sources.list.d```
-
-La commande ```[``` est une commande de test booléen. Utilisée ainsi ```[ EXPRESSION ]```, elle vérifie la validité de l'expression en retournant le statut de sortie. La valeur 0 correspond à un vrai et 1 à un faux.
-
 
 ## Exercice 7
 Après avoir suivi chaque étape, il a fallu modifier le contenu du fichier ```control``` puisque des erreurs apparaissaient lors de la création du paquet. Voilà le contenu.
